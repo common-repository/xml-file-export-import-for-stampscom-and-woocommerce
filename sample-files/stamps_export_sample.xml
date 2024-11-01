@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Print xmlns="http://stamps.com/xml/namespace/2009/8/Client/BatchProcessingV1">
+    <Item>
+        <OrderDate>2016-06-02 14:49:00</OrderDate>
+        <OrderID>1621</OrderID>
+        <Recipient>
+            <AddressFields>
+                <FirstName>Hank</FirstName>
+                <LastName>Schrader</LastName>
+                <Address1>4903 Cumbre Del Sur Ct NE</Address1>
+                <Address2/>
+                <City>Albuquerque</City>
+                <State>NM</State>
+                <ZIP>87111</ZIP>
+                <Country>US</Country>
+                <OrderedPhoneNumbers>
+                    <Number>(555) 867-5309</Number>
+                </OrderedPhoneNumbers>
+                <OrderedEmailAddresses>
+                    <Address>schraderbrau@mailinator.com</Address>
+                </OrderedEmailAddresses>
+            </AddressFields>
+        </Recipient>
+        <WeightOz>24.00</WeightOz>
+        <RecipientEmailOptions>
+            <ShipmentNotification>false</ShipmentNotification>
+        </RecipientEmailOptions>
+        <CustomsInfo>
+            <Contents>
+                <Item>
+                    <Description>HK0016</Description>
+                    <Quantity>2</Quantity>
+                    <Value>14</Value>
+                    <WeightOz>24.00</WeightOz>
+                </Item>
+            </Contents>
+            <ContentsType>other</ContentsType>
+            <DeclaredValue>14</DeclaredValue>
+            <UserAcknowledged>true</UserAcknowledged>
+        </CustomsInfo>
+    </Item>
+</Print>

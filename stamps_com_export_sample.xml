@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Print xmlns="http://stamps.com/xml/namespace/2009/8/Client/BatchProcessingV1">
+    <Configuration>
+        <DesiredPrinter>
+            <Name>Fake Hp</Name>
+            <Bin>Normal</Bin>
+        </DesiredPrinter>
+        <MailingCutoffTime>00:00:00</MailingCutoffTime>
+    </Configuration>
+    <Layout>
+        <Desired>
+            <PaperID>4</PaperID>
+        </Desired>
+    </Layout>
+     <Item>
+        <ActualMailingDate>2016-06-27</ActualMailingDate>
+        <BillingAddress/>
+        <DesiredMailingDate>2016-06-27</DesiredMailingDate>
+        <DeviceID>062S0030298859</DeviceID>
+        <HidePostageAmount>true</HidePostageAmount>
+        <ShippingProfile>
+            <Identity>a3b65c4b-ce1a-4c91-9335-0aca32c079b6</Identity>
+        </ShippingProfile>
+        <MailClass>first class</MailClass>
+        <Mailpiece>package</Mailpiece>
+        <OrderContents>
+            <Item>
+                <ExternalID>109</ExternalID>
+                <Name>Domestic Test Description</Name>
+                <Price>2</Price>
+                <Quantity>3</Quantity>
+                <Total>6</Total>
+            </Item>
+        </OrderContents>
+        <OrderDate>2016-06-27</OrderDate>
+        <OrderID>2099</OrderID>
+        <ShipMethod>Express</ShipMethod>
+        <AutoPrint>false</AutoPrint>
+        <PackageDimensions Height="5" Length="5" Width="5"/>
+        <PostageCost>
+            <MailClass>2.45</MailClass>
+            <Total>2.45</Total>
+        </PostageCost>
+        <PrintDateTime>2016-06-27T07:25:37</PrintDateTime>
+        <PrintedMemo>Test Message</PrintedMemo>
+        <PrintID>3057317752</PrintID>
+        <PrintResult>printed</PrintResult>
+        <Recipient>
+            <AddressFields>
+                <City>New York</City>
+                <CleanseCode>0000000040DFE4409E500A2FAF9613BB65DB8FCBE295DD7664286E403130303031373830303939354330303000000000</CleanseCode>
+                <Company></Company>
+                <Country>US</Country>
+                <Department></Department>
+                <OrderedEmailAddresses>
+                    <Address>dummy@stamps.com</Address>
+                </OrderedEmailAddresses>
+                <FirstName></FirstName>
+                <LastName>jon mailer</LastName>
+                <MiddleName></MiddleName>
+                <MultilineAddress>
+                    <Line>421 8TH AVE</Line>
+                </MultilineAddress>
+                <NamePrefix></NamePrefix>
+                <NameSuffix></NameSuffix>
+                <OrderedPhoneNumbers>
+                    <Number>8888888888</Number>
+                </OrderedPhoneNumbers>
+                <ZIP>10001-7800</ZIP>
+                <State>NY</State>
+                <Title></Title>
+            </AddressFields>
+        </Recipient>
+        <RecipientEmailOptions>
+            <ShipmentNotification>false</ShipmentNotification>
+        </RecipientEmailOptions>
+        <RefundType>electronic</RefundType>
+        <Sender>
+            <City>Chatsworth</City>
+            <Company>N/A</Company>
+            <FirstName>Piotr</FirstName>
+            <LastName>Czaplicki</LastName>
+            <MultilineAddress>
+                <Line>21606 DEVONSHIRE ST</Line>
+            </MultilineAddress>
+            <OrderedPhoneNumbers>
+                <Number>8888888888</Number>
+            </OrderedPhoneNumbers>
+            <ZIP>91311</ZIP>
+            <State>CA</State>
+        </Sender>
+        <Services>
+            <TrackingService>Tracking</TrackingService>
+        </Services>
+        <TrackingNumber>9400111899564863436249</TrackingNumber>
+        <WeightOz>3</WeightOz>
+    </Item>
+</Print>
